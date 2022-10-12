@@ -188,7 +188,7 @@ echo "HALT  | $END_TIME" >> log.txt
 
 ### Scheduling
 
-The spider has been running for more than a month without issue. To reduce impact on the 
+The spider has been running for more than a month without issue. To reduce impact on the the target I've decided to limit my crawls to once every 8 hours as realtime data is not important.
 
 Example: `crontab -e` set to run our shell script every 8 hours starting at midnight.
 
